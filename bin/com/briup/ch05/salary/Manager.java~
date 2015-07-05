@@ -1,0 +1,18 @@
+package com.briup.ch05.salary;
+
+public class Manager extends Employee{
+
+	private double workYear;
+	public Manager(){}
+	public Manager(int id,String name,boolean gender,int age,double workYear){
+		super();
+		this.workYear = workYear;
+	}
+	
+	public void setWorkYear(double workYear){
+		this.workYear = workYear;
+	}
+	public double getWorkYear(){
+		return workYear;
+	}
+}
